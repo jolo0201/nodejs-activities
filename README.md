@@ -1,6 +1,7 @@
 # Node JS Activities
 Multiple NodeJS activities for Solutions Architect training.
 
+
 ### Before you start
 Install all node modules in order for them to work.
 
@@ -10,7 +11,7 @@ npm i convert-excel-to-json xlsx jimp qrcode prompt jsbarcode canvas movie-list-
 
 ## Excel To JSON
 
-Convert all Excel Files in the folder to JSON. Copy excel files to ExcelFiles folder. Output will be saved in ConvertedJsonFiles folder.
+Convert all Excel Files from a folder to JSON file. Copy excel files to **ExcelFiles** folder. JSON files will be saved on **ConvertedJsonFiles** folder.
 
 ### Running the application
 
@@ -20,7 +21,7 @@ node excel-to-json.js
 
 ## JSON to Excel
 
-Convert all JSON Files in the folder to Excel. Copy JSON files to JsonSamples folder. Output will be saved in ExcelFiles folder.
+Convert all JSON Files from a folder to Excel file. Copy JSON files to **JsonSamples** folder. Excel files will be saved on **ExcelFiles** folder.
 
 ### Running the application
 
@@ -30,18 +31,18 @@ node json-to-excel.js
 
 ## Image Morph
 
-Add a background image to a PNG file and saving it on a directory.
+Add a background image to a PNG file and saving it on a directory using *Jimp*.
 
 ### Running the application
 
 ```
 node image-morph.js
 ```
-> Image are static. change them on the code to create a result.
+> Image are static. Change them on the code to generate a result.
 
 ## QR Generator
 
-Generate a QR code of a website based on the user input and produce an image on disk.
+This will generate a QR code of a website according to the user input and saving it as a PNG file.
 
 ### Running the application
 
@@ -51,7 +52,7 @@ node qr-generator.js
 
 ## Barcode Generator
 
-Generate a barcode of an product code based on the user input and produce an image on disk.
+This will generate a barcode of a product code according to the user input and saving it as a PNG file.
 
 ### Running the application
 
@@ -61,7 +62,7 @@ node barcode-generator.js
 
 ## Movie Search
 
-Generate an excel file for the movies or series searched using  https://api.themoviedb.org API.
+This will generate an excel file from the movies or series searched using https://api.themoviedb.org API.
 > Note: Generate you own API key.
 
 ### Running the application
