@@ -13,7 +13,7 @@ npm i convert-excel-to-json xlsx jimp qrcode prompt jsbarcode canvas movie-list-
 
 Convert all Excel Files from a folder to JSON file. Copy excel files to **ExcelFiles** folder. JSON files will be saved on **ConvertedJsonFiles** folder.
 
-### Running the application
+### Running the script
 
 ```
 node excel-to-json.js
@@ -23,7 +23,7 @@ node excel-to-json.js
 
 Convert all JSON Files from a folder to Excel file. Copy JSON files to **JsonSamples** folder. Excel files will be saved on **ExcelFiles** folder.
 
-### Running the application
+### Running the script
 
 ```
 node json-to-excel.js
@@ -33,7 +33,7 @@ node json-to-excel.js
 
 Add a background image to a PNG file and saving it on a directory using *Jimp*.
 
-### Running the application
+### Running the script
 
 ```
 node image-morph.js
@@ -44,7 +44,7 @@ node image-morph.js
 
 This will generate a QR code of a website according to the user input and saving it as a PNG file.
 
-### Running the application
+### Running the script
 
 ```
 node qr-generator.js
@@ -54,7 +54,7 @@ node qr-generator.js
 
 This will generate a barcode of a product code according to the user input and saving it as a PNG file.
 
-### Running the application
+### Running the script
 
 ```
 node barcode-generator.js
@@ -65,7 +65,7 @@ node barcode-generator.js
 This will generate an excel file from the movies or series searched using https://api.themoviedb.org API.
 > Note: Generate you own API key.
 
-### Running the application
+### Running the script
 
 ```
 node movie.js
