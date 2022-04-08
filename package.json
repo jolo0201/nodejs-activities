@@ -1,0 +1,22 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "convert-excel-to-json": "^1.7.0",
+    "jimp": "^0.16.1",
+    "jsbarcode": "^3.11.5",
+    "json-as-xlsx": "^2.4.0",
+    "movie-list-node": "^2.1.1",
+    "prompt": "^1.2.2",
+    "qrcode": "^1.5.0"
+  }
+}
